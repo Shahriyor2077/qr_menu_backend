@@ -1,4 +1,6 @@
 {
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "prisma"],
   "compilerOptions": {
     "module": "CommonJS",
     "moduleResolution": "node",
